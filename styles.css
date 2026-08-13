@@ -37,8 +37,9 @@ button { font: inherit; }
 .heroCopy { max-width: 610px; }
 .eyebrow { display: inline-flex; align-items: center; gap: 9px; color: #9eddd8; font-size: 12px; font-weight: 800; letter-spacing: .08em; }
 .eyebrow:before { content: ""; width: 26px; height: 2px; background: var(--teal); }
-.hero h1 { margin: 22px 0 18px; font-size: clamp(44px, 5.6vw, 72px); line-height: 1.13; letter-spacing: -.055em; font-weight: 850; }
+.hero h1 { margin: 0 0 18px; font-size: clamp(44px, 5.6vw, 72px); line-height: 1.13; letter-spacing: -.055em; font-weight: 850; }
 .hero h1 em { display: block; color: var(--teal); font-style: normal; }
+.heroCopy > .eyebrow { margin-bottom: 18px; }
 .heroCopy > p { max-width: 580px; margin: 0 0 30px; color: #cbd6e2; font-size: 16px; line-height: 1.9; }
 .button { min-height: 52px; display: inline-flex; align-items: center; justify-content: center; gap: 24px; padding: 0 24px; border-radius: 8px; font-size: 14px; font-weight: 850; transition: transform .2s, box-shadow .2s, background .2s; }
 .button:hover { transform: translateY(-2px); }
